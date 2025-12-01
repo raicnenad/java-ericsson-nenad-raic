@@ -7,28 +7,28 @@ public class Main {
         System.out.println("Hello and welcome!");
 
         // prolazimo kroz sve brojeve od 1 do 9999
-        for (int broj = 1; broj <= 9999; broj++) {
-            if (jeArmstrong(broj)) {
-                System.out.println(broj);
+        for (int number = 1; number <= 20000; number++) {
+            if (isArmstrong(number)) {
+                System.out.println(number);
             }
         }
     }
 
     // metoda koja provjerava je li broj Armstrongov
-    private static boolean jeArmstrong(int broj) {
-        int original = broj;
-        int suma = 0;
+    public static boolean isArmstrong(int number) {
+        int original = number;
+        int sum = 0;
 
         // broj znamenki
-        int znamenke = String.valueOf(broj).length();
+        int digits = String.valueOf(number).length();
 
         // razbijanje broja na znamenke i računanje sume potencija
-        while (broj > 0) {
-            int znamenka = broj % 10;
-            suma += Math.pow(znamenka, znamenke);
-            broj /= 10;
+        while (number > 0) {
+            int digit = number % 10;
+            sum += Math.pow(digit, digits);
+            number /= 10;
 
         }
-        return suma == original;
+        return sum == original;
     }
 }
