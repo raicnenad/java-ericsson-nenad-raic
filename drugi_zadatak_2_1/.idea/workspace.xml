@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="03825da9-c69d-4530-8991-d55f0d749056" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../drugi_zadatak_2_1/.idea/modules.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="c73753ad-4700-4eb9-bce0-be049b24f1d5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +11,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="38TciaD68j3OFbbU1OHAW8EmWLK" />
+  <component name="ProjectId" id="38ThrrTJ0glsa6vA2XGMsYHp13b" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,41 +26,40 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/enenrai/Documents/java-ericsson-nenad-raic/drugi_zadatak_prvi_dio/src/Main.java&quot;
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/enenrai/Documents/java-ericsson-nenad-raic/drugi_zadatak_2_1/src/Main.java&quot;
   }
 }</component>
   <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="drugi_zadatak_prvi_dio" />
+      <module name="drugi_zadatak_2_1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="drugi_zadatak_prvi_dio" />
+      <module name="drugi_zadatak_2_1" />
       <option name="filePath" />
       <method v="2" />
     </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="03825da9-c69d-4530-8991-d55f0d749056" name="Changes" comment="" />
-      <created>1768827131167</created>
+      <changelist id="c73753ad-4700-4eb9-bce0-be049b24f1d5" name="Changes" comment="" />
+      <created>1768829672071</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1768827131167</updated>
+      <updated>1768829672071</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BrojacZnakova.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
